@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clock Ring Shadow -->
+    <path
+        android:fillColor="#1A000000"
+        android:pathData="M54,26c-15.46,0 -28,12.54 -28,28s12.54,28 28,28s28,-12.54 28,-28s-12.54,-28 -28,-28z" />
+
+    <!-- Clock Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,24c-16.57,0 -30,13.43 -30,30s13.43,30 30,30s30,-13.43 30,-30s-13.43,-30 -30,-30zm0,54c-13.25,0 -24,-10.75 -24,-24s10.75,-24 24,-24s24,10.75 24,24s-10.75,24 -24,24z" />
+
+    <!-- Bell Ears / Alarm Top -->
+    <path
+        android:fillColor="#EEF2FF"
+        android:pathData="M35.5,23.5l-6,-6a2,2 0,0 0,-2.83 2.83l6,6a2,2 0,0 0,2.83 -2.83z" />
+    <path
+        android:fillColor="#EEF2FF"
+        android:pathData="M72.5,23.5l6,-6a2,2 0,0 1,2.83 2.83l-6,6a2,2 0,0 1,-2.83 -2.83z" />
+
+    <!-- Clock Hands (Pointing at 10:10) -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M54,34c-1.1,0 -2,0.9 -2,2v18c0,0.55 0.22,1.05 0.59,1.41l8,8c0.78,0.78 2.05,0.78 2.83,0s0.78,-2.05 0,-2.83l-7.42,-7.42V36c0,-1.1 -0.9,-2 -2,-2z" />
+
+    <!-- Glowing Checkmark Badge (Bottom Right) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M68,68m-14,0a14,14 0,1 0,28 0a14,14 0,1 0,-28 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62.5,68l3.5,3.5l8.5,-8.5"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Rounded Background Container -->
+    <path android:pathData="M20,0h80a20,20 0,0 1,20 20v80a20,20 0,0 1,-20 20h-80a20,20 0,0 1,-20 -20v-80a20,20 0,0 1,20 -20z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="120"
+                android:endY="120"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#4F46E5" android:offset="0.0" />
+                <item android:color="#312E81" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bell Ears / Alarm Top -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M38,26l-8,-8a3,3 0,0 0,-4.24 4.24l8,8a3,3 0,0 0,4.24 -4.24z" />
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M82,26l8,-8a3,3 0,0 1,4.24 4.24l-8,8a3,3 0,0 1,-4.24 -4.24z" />
+
+    <!-- Outer Clock Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,28c-18.78,0 -34,15.22 -34,34s15.22,34 34,34s34,-15.22 34,-34s-15.22,-34 -34,-34zm0,61c-14.91,0 -27,-12.09 -27,-27s12.09,-27 27,-27s27,12.09 27,27s-12.09,27 -27,27z" />
+
+    <!-- Clock Hands (10:10) -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M60,39c-1.38,0 -2.5,1.12 -2.5,2.5v20.5c0,0.66 0.26,1.3 0.73,1.77l9.5,9.5c0.98,0.98 2.56,0.98 3.54,0s0.98,-2.56 0,-3.54l-8.77,-8.77V41.5c0,-1.38 -1.12,-2.5 -2.5,-2.5z" />
+
+    <!-- Emerald Checkmark Badge -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M78,78m-16,0a16,16 0,1 0,32 0a16,16 0,1 0,-32 0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M70,78l4,4l10,-10"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

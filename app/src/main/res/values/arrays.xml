@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories_array">
+        <item>Medicine</item>
+        <item>Study</item>
+        <item>Work</item>
+        <item>Exercise</item>
+        <item>Food</item>
+        <item>Sleep</item>
+        <item>Call</item>
+        <item>Personal</item>
+        <item>Custom</item>
+    </string-array>
+
+    <string-array name="repeat_array">
+        <item>Doesn\'t repeat</item>
+        <item>Every day</item>
+        <item>Every week</item>
+    </string-array>
+
+    <string-array name="voice_repeats_array">
+        <item>1 Time</item>
+        <item>2 Times</item>
+        <item>3 Times</item>
+        <item>5 Times</item>
+    </string-array>
+
+    <string-array name="voice_tones_array">
+        <item>Natural Warm Tone</item>
+        <item>Polite / Clear High Tone</item>
+        <item>Deep Tone</item>
+    </string-array>
+
+    <string-array name="voice_speeds_array">
+        <item>Normal Speed (1.0x)</item>
+        <item>Slow &amp; Clear (0.85x)</item>
+        <item>Fast (1.15x)</item>
+    </string-array>
+</resources>
